@@ -28,12 +28,13 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  border-top: dashed black 1px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -68,4 +69,11 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+form input[type="submit"]{
+  background-image: url('../images/86-866469_computer-icons-floppy-disk-clip-art-save-icon-line-art-removebg-preview.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
