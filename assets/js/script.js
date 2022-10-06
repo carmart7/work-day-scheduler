@@ -25,7 +25,6 @@ function loadContent(i, element) {
         element.val(content);
     }
     if(moment().format('H') > elementTime) {
-        console.log("PASTTHISTIME");
         element.addClass("past");
     } else if (moment().format('H') < elementTime) {
         element.addClass("future");
